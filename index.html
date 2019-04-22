@@ -2,17 +2,48 @@
 
 <html>
 <head>
-  <h1>Barokooopppppouj</h1>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <title>Clear View Escapes</title>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes, udemy testing despite all the italian bitches">
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
+
+  
+  <link rel="stylesheet" href="temp/styles/styles.css">
+
 </head>
 <body>
-  <header>
-    <img src="WinterSoldier.jpg">
-    <a href="#">Get in Touch</a>
+  <header class="main-header">
+      
+      <div>
+          <a href="index.html" class="main-header__brand">
+              Avengers!
+          </a>
+      </div>
+         <nav class="main-nav">
+          <ul class="main-nav__items">
+              <li class="main-nav__item">
+                  <a href="packages/index.html">Packages</a>
+              </li>
+              <li class="main-nav__item">
+                  <a href="customers/index.html">Customers</a>
+              </li>
+              <li class="main-nav__item main-nav__item--cta">
+                  <a href="start-hosting/index.html">Start Hosting</a>
+              </li>
+          </ul>
+         </nav>
+       
+    <div class="front">
+    <img src="images/EndGame.jpg">
+    <div class="front-text">
+        <h1>You Are in the End Game now !!!!</h1>
+    </div>
+  </div>
+    <p>
+    <a href="#" class="btn">Join the Avengers</a>
+   </p>
     <nav>
       <ul>
         <li><a href="#our-beginning">Our Beginning</a></li>
@@ -23,44 +54,159 @@
   </header>
 
   <div class="large-hero">
-    <img src="WinterSoldier.jpg">
-    <h1>Your clarity.</h1>
-    <h2>One trip away.</h2>
-    <p>We create soul restoring journeys that inspire you to be you.</p>
-    <p><a href="#">Get Started Today</a></p>
+   <picture>
+     <source srcset="images/symbol.jpg" media="(min-width:1380px)">
+     <source srcset="images/symbol-medium.jpg" media="(min-width:990px)">
+     <img src="images/symbol-smaller.jpg" alt="Don't be surprised">
+
+    </picture>
+
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+      <h1 class="large-hero__title">One Team One Purpose !</h1>
+      <h2 class="large-hero__subtitle">The Battle for the Univers is On !</h2>
+      <p class="large-hero__motto">Better to fight for something than live for nothing !</p>
+      <p><a href="#" class="btn-yellow">Join the DreamTeam or Die!</a></p>
+    </div>
+    </div>
   </div>
 
-  <div id="our-beginning">
-    <h2>The first trip we planned was our own.</h2>
-    <h3>Ever since, we&rsquo;ve been working to make travel better for everyone.</h3>
-    <img src="assets/images/first-trip.jpg" alt="Couple walking down a street.">
-    <img src="assets/images/our-start.jpg" alt="Our founder, Jane Doe">
-    <h2>Here&rsquo;s how we got started&hellip;</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum <strong>dolore eu fugiat.</strong></p>
+      <main>
+        <section id="product-overview">
+           <h1 class="section-intro">Date With a Female Avenger.</h1>
+        </section>
+        <section id="date">
+          <h1 class="section-title">Make a Good Choice</h1>
+          <div>
+              <article class="plan">
+                  <h1 class="plan__title">FREE</h1>
+                  <img src="images/Widow.jpg" alt="Black Widow">
+                  <h2 class="plan__price">$0/month</h2>
+                  <h3>The pros and cons:</h3>
+                  <ul class="plan__features">
+                      <li>1 Workspace</li>
+                      <li>Unlimited Traffic</li>
+                      <li>10GB Storage</li>
+                      <li>Basic Support</li>
+                  </ul>
+                  <div>
+                      <button class="button">CHOOSE PLAN</button>
+                  </div>
+              </article>
+              
+                  <article class="plan plan--highlighted">
+                  <h1 class="plan__annotation">RECOMMENDED</h1>
+                  <img src="images/Gamora4.jpg" alt="Gamora">
+                  <h1 class="plan__title">PLUS</h1>
+                  <h2 class="plan__price">$29/month</h2>
+                  <h3>The pros and cons:</h3>
+                  <ul class="plan__features">
+                      <li>5 Workspaces</li>
+                      <li>Unlimited Traffic</li>
+                      <li>100GB Storage</li>
+                      <li>Plus Support</li>
+                  </ul>
+                  <div>
+                      <button class="button">CHOOSE PLAN</button>
+                  </div>
+              </article>
+              <article class="plan">
+                  <h1 class="plan__title">PREMIUM</h1>
+                  <img src="images/Sister.jpeg" alt="Sister Cyborg">
+                  <h2 class="plan__price">$99/month</h2>
+                  <h3>The pros and cons:</h3>
+                  <ul class="plan__features">
+                      <li>10 Workspaces</li>
+                      <li>Unlimited Traffic</li>
+                      <li>Unlimited Storage</li>
+                      <li>Priority Support</li>
+                  </ul>
+                  <div>
+                      <button class="button">CHOOSE PLAN</button>
+                  </div>
+              </article>
+          </div>
+        </section>
+        <section id="key-features">
+            <h1 class="section-title">Many Good Reasons to Stick Around</h1>
+            <ul class="key-feature__list">
+                <li class="key-feature">
+                    <div class="key-feature__image">
+
+                    </div>
+                    <p class="key-feature__description">3,857,000 Trusting Customers</p>
+                </li>
+                <li class="key-feature">
+                    <div class="key-feature__image">
+
+                    </div>
+                    <p class="key-feature__description">99.999% Uptime Guarantee</p>
+                </li>
+                <li class="key-feature">
+                    <div class="key-feature__image">
+
+                    </div>
+                    <p class="key-feature__description">Lightning Fast CDN</p>
+                </li>
+            </ul>
+          </section>
+      </div>
+
+
+      </main>
+
+    
+  <div id="our-beginning" class="page-section">
+    <div class="wrapper">
+       <h2 class="headline headline--centered">The Most Powerful Black Character came across by Avengers is Thanos.</h2>
+       <h3 class="headline headline--centered">"When I'm done, half of humanity will still exist. ..." -Thanos said</h3>
+       
+      <div class="row row--gutters">
+         <div class="row__medium-8">
+            <img src="images/Thanos.jpg" alt="badass">
+         </div>
+
+         <div class="row__medium-4">
+            <h2 class="headline">Here&rsquo;s how we got started&hellip;</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+         </div>
+         <div class="clear-me"></div>
+         <div class="wrapper">
+           <div class="titan">
+             <h2 class="headline headline-titan">The Planet where Thanos comes from-Titan</h2>
+           </div>
+           <picture>
+             <img src="images/Tytan.jpg" alt="The planet">
+           </picture>
+          </div>
+         </div>
+      </div>
   </div>
 
-  <div id="features">
-    <img src="assets/images/icons/star.svg">
-    <h2>Our Features</h2>
+  <div id="features"class="page-section page-section--blue">
+    <div class="wrapper">
+       <img src="assets/images/icons/star.svg">
+       <h2>Our Features</h2>
   
-    <img src="assets/images/icons/rain.svg">
-    <h3>We&rsquo;ll Watch the Weather</h3>
-    <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+       <img src="assets/images/icons/rain.svg">
+       <h3>We&rsquo;ll Watch the Weather</h3>
+       <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
 
-    <img src="assets/images/icons/globe.svg">
-    <h3>Global Guides</h3>
-    <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
+       <img src="assets/images/icons/globe.svg">
+       <h3>Global Guides</h3>
+       <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
 
-    <img src="assets/images/icons/wifi.svg">
-    <h3>Wi-Fi Waypoints</h3>
-    <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+       <img src="assets/images/icons/wifi.svg">
+       <h3>Wi-Fi Waypoints</h3>
+       <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
 
-    <img src="assets/images/icons/fire.svg">
-    <h3>Survival Kit</h3>
-    <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
+       <img src="assets/images/icons/fire.svg">
+       <h3>Survival Kit</h3>
+       <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
   </div>
+</div>
 
   <div id="testimonials">
     <img src="assets/images/icons/comment.svg">
@@ -83,7 +229,7 @@
   </div>
 
   <footer>
-    <p>Copyright &copy; 2016 Clear View Escapes. All rights reserved. <a href="#">Get in Touch</a></p>
+    <p>Copyright &copy; 2016 Clear View Escapes. All rights reserved. <a href="#" class="btn-orange">Join the Avengers</a></p>
   </footer>
 </body>
 </html>
