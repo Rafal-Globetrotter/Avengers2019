@@ -1,0 +1,76 @@
+
+@define-mixin atSmall {
+    @media (min-width: 530px){
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media (min-width: 800px){
+        @mixin-content;
+    }
+}
+
+@define-mixin atLarge {
+    @media (min-width: 1200px){
+        @mixin-content;
+    }
+}
+
+
+
+
+.large-hero {
+   position: relative;
+
+
+}
+
+
+.large-hero__text-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.large-hero__title {
+    font-weight: 300;
+    color: yellow;
+    font-size: 1.2rem;
+    margin: 0;
+
+   @mixin atSmall {
+       font-size: 4.8rem;
+   }
+
+}
+
+.large-hero__subtitle {
+    font-weight: 300;
+    color: yellow;
+    font-size: 1.2rem;
+    margin: 0;
+
+   @mixin atSmall {
+       font-size: 2rem;
+   }
+
+    @mixin atMedium {
+       font-size: 3.2rem;
+   }
+
+    @mixin atLarge {
+       font-size: 4rem;
+   }
+
+}
+
+
+
+
+
+.large-hero__motto {
+    color: #FFF;
+    font-size: 1.5rem;
+}

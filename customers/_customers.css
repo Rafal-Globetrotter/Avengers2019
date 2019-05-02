@@ -1,0 +1,83 @@
+main {
+  padding-top: 32px;
+}
+
+.background {
+  background: url("../images/throne.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+.down {
+  margin-top: 120px;
+}
+
+
+
+.testimonial__image {
+ width: 100%;
+    margin-top: -25px;
+    margin-right: auto;
+
+}
+
+.ship2 {
+  text-align: center;
+}
+
+ 
+  
+  .testimonial__info {
+    text-align: right;
+    padding: 14px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+ 
+  
+  .testimonial__name {
+    margin: 3px;
+    color: #ff5454;
+    text-align: center;
+  }
+  
+
+  
+  .testimonial__text {
+            width: 100%;
+            font-weight: bold;
+            text-align: center;
+            color: yellow;
+            font-size: 1.5rem;
+  }
+  
+  .main-footer {
+    background: black;
+    padding: 32px;
+    margin-top: -10px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
+}
+  
