@@ -1,0 +1,11 @@
+.section-title {
+    font-size: 2rem;
+    font-weight: 300;
+
+   }
+
+   
+@mixin atSmall {
+    .section-title {
+        font-size: 4rem;
+    }}

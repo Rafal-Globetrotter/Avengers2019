@@ -1,0 +1,14 @@
+.headline {
+    font-weight: 700;
+    font-size: 2rem;
+    color: darkmagenta;
+
+}
+
+.headline--centered {
+        text-align: center;
+        margin-top: 5px;
+       }
+.headline-titan {
+    text-align: center;  
+}
