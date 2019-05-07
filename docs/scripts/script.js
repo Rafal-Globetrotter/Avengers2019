@@ -1,7 +1,7 @@
 
 
 
-alert("kurwa");
+
 
 var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal');
