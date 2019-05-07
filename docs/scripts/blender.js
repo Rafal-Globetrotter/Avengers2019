@@ -35,3 +35,17 @@
     .pipe(postcss([cssImport, mixins, cssvars, nested, autoprefixer]))
     .pipe(gulp.dest('./Mega/temp/styles'));
   });
+
+
+  <style>
+
+body {
+
+    background: url("../images/Tony.jpg");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+</style>
