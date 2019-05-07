@@ -3,7 +3,7 @@ main {
 }
 
 .background {
-    background: url ("~/images/Tony.jpg");
+    background: url ("images/Tony.jpg");
     width: 100vw;
     height: 100vh;
     position: fixed;
