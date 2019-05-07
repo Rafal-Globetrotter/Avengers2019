@@ -1263,3 +1263,19 @@ main {
     z-index: -1;
 }
 
+
+.background2 {
+  background: url("https://misteryofdarkness.github.io/Avengers2019/images/throne.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.background3 {
+  background: url("https://misteryofdarkness.github.io/Avengers2019/images/Tony.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
