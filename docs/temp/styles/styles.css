@@ -1261,17 +1261,7 @@ main {
   z-index: -1;
 }
 
-.package__badge {
-  position: absolute;
-  top: 280px;
-  left: 800px;
-  margin: 20px;
-  font-size: 0.75rem;
-  color: blue;
-  background: #ff5454;
-  padding: 8px;
 
-}
 
 #errorMessage {
   color: yellow;
