@@ -1272,3 +1272,19 @@ main {
   padding: 8px;
 
 }
+
+#errorMessage {
+  color: yellow;
+  font-size: 2rem;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+#successMessage {
+  color: yellow;
+  font-size: 3rem;
+  display: none;
+  font-weight: bold;
+  margin-left: 50px;
+}
