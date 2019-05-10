@@ -764,8 +764,8 @@ img {
 .mobile-nav__item--cta a {
     color: var(-main-whitesmoke);
     background: var(--main-purple);
-    padding: 8px 16px;
-    border-radius: 8px;
+    padding: 4px 4px;
+    border-radius: 6px;
 }
 
 .main-nav__item--cta a:hover,
