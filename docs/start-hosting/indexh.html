@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>uHost Signup</title>
+    <title>Join the Avengers!</title>
     <link rel="shortcut icon" href="../favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="../temp/styles/styles.css">
     <link rel="stylesheet" href="_start-hosting.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 
 <div class="background1"></div>
@@ -66,6 +67,9 @@
             </nav>
 
     <main class="signup-page">
+
+            <div id="successMessage">You made it ! Congratulations!</div>
+            <div id="errorMessage"></div>
             
         <h1 class="signup-title">Awesome! Let's dive right in!</h1>
         <form action="indexh.html" class="signup-form">
@@ -74,20 +78,20 @@
                 <option value="mr">Mr.</option>
                 <option value="ms">Ms.</option>
             </select>
+            
             <label for="first-name">First name</label>
-            <input type="text" id="first-name">
+            <input type="text" autocomplete="off" id="first-name">
             <label for="last-name">Last name</label>
-            <input type="text" id="last-name">
+            <input type="text" autocomplete="off" id="last-name">
             <label for="email">E-Mail</label>
-            <input type="email" id="email" class="invalid">
+            <input type="email" autocomplete="off" placeholder="eg.yourname@gmail.com" id="email" class="invalid">
             <label for="password">Password</label>
-            <input type="password" id="password">
+            <input type="password" autocomplete="off" id="password">
             <div class="signup-form__checkbox">
-
-                <input type="checkbox" id="agree-terms" class="invalid">
+            <input type="checkbox" id="agree-terms" class="invalid">
             <label for="agree-terms">Agree to
                 <a href="#">Terms &amp; Conditions</a>
-            </label>
+     </label>
             </div>
             
             <button type="submit" class="button">Sign Up</button>
@@ -107,6 +111,7 @@
             </ul>
         </nav>
     </footer>
+    <script type="text/javascript" src="../scripts/validation.js"></script>
     <script type="text/javascript" src="../scripts/script.js"></script>
 </body>
 

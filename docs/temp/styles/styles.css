@@ -641,7 +641,7 @@ img {
 
 .headline {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: darkmagenta;
 
 }
@@ -670,14 +670,11 @@ img {
     position: fixed;
     z-index: 1;
     height: 120px;
-    /*display: flex;
-    align-items: center;
-    justify-content: space-between;*/
-     }
+   }
 
 .main-header > div {
     display: inline-block;
-    font-size: 50px;
+    font-size: 3.1rem;
     }
 
 .main-nav {
@@ -795,10 +792,7 @@ img {
     vertical-align: middle;
     min-width: 14rem;
     max-width: 40rem;
-    /*padding: 16px;
-    min-width: 200px;
-    vertical-align: top;*/
-    }
+     }
     }
 
 .section-title {
@@ -902,11 +896,7 @@ img {
     
 }
 
-/*.key-feature {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-}*/
+
 
 @media (min-width: 530px){
     .key-feature {
@@ -929,7 +919,7 @@ img {
     text-align: center;
     font-weight: bold;
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
    
 }
 
@@ -952,9 +942,7 @@ img {
   box-sizing: border-box;
 }
 
-.headline {
-    font-size: 1.2rem;
-}
+
 
 .clear-me {
     clear: both;
@@ -1010,7 +998,7 @@ main {
 .package__info {
       padding: 16px;
       border: 1px solid #0e4f1f;
-      font-size: 20px;
+      font-size: 1.2rem;
       color: peru;
       background: white;
   }
@@ -1163,7 +1151,6 @@ main {
     .signup-form input[id*="terms"] + label {
         display: inline-block;
         width: auto;
-      /*  vertical-align: middle;*/
     }
 
 .signup-form input:not([type="checkbox"]),
@@ -1219,13 +1206,7 @@ main {
             }
         }
 
-/*.signup-form {
 
-    display: inline-block;
-    margin-left: 180px;
-    margin-right: 180px;
-    
-}*/
 
 .main-footer {
     background: black;
@@ -1278,4 +1259,16 @@ main {
   height: 100vh;
   position: fixed;
   z-index: -1;
+}
+
+.package__badge {
+  position: absolute;
+  top: 280px;
+  left: 800px;
+  margin: 20px;
+  font-size: 0.75rem;
+  color: blue;
+  background: #ff5454;
+  padding: 8px;
+
 }

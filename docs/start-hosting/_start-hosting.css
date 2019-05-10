@@ -40,8 +40,7 @@ main {
     .signup-form input[id*="terms"] + label {
         display: inline-block;
         width: auto;
-      /*  vertical-align: middle;*/
-    }
+      }
 
     .signup-form input:not([type="checkbox"]),
     .signup-form select {
@@ -96,14 +95,7 @@ main {
                 grid-column: span 2;
             }
         }
-   
-/*.signup-form {
 
-    display: inline-block;
-    margin-left: 180px;
-    margin-right: 180px;
-    
-}*/
   
 
 .main-footer {
@@ -140,4 +132,21 @@ main {
     height: 100vh;
     position: fixed;
     z-index: -1;
+}
+
+
+#errorMessage {
+    color: yellow;
+    font-size: 2rem;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#successMessage {
+    color: yellow;
+    font-size: 3rem;
+    display: none;
+    font-weight: bold;
+    margin-left: 50px;
 }
