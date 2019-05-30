@@ -46,9 +46,7 @@ function isEmail(email) {
 
   const button = document.querySelector('.button').addEventListener('click', stop); 
   function stop(e) {
-
-    console.log('jaja');
-
-     e.preventDefault();
+   
+    e.preventDefault();
 
   }
