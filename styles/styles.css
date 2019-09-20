@@ -11,6 +11,6 @@
 @import "modules/_datechoice";
 @import "modules/_row";
 @import "modules/_section-title";
-@import "modules/_rowek";
+@import "../packages/_packages";
 @import "../customers/_customers";
 @import "../start-hosting/_start-hosting";

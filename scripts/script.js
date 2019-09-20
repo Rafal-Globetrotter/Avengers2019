@@ -1,7 +1,7 @@
 
 
 
-alert("kurwa");
+
 
 var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal');
@@ -34,3 +34,6 @@ var mobileNav = document.querySelector('.mobile-nav');
      mobileNav.style.display = 'block';
      backdrop.style.display = 'block';
  });
+ 
+ 
+ console.log('dupa blada');

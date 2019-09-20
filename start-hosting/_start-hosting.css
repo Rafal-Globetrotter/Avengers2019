@@ -6,7 +6,7 @@ main {
 .signup-title {
     text-align: center;
     font-size: 2rem;
-    color: #ff5454;
+    color: yellow;
 }
 
 .signup-form {
@@ -16,9 +16,14 @@ main {
 
 .signup-form label {
     font-weight: bold;
+    color: red;
+    font-size: 1.5rem;
 }
 
 
+.signup-form label a {
+    color: red;
+}
 
 .signup-page {
     min-height: calc(100vh -3.5rem - 8rem);
@@ -129,3 +134,10 @@ main {
     color: #ccc;
 }
   
+.background {
+    background: url("../images/mantis2.jpg");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}

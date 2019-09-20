@@ -5,7 +5,11 @@ main {
 }
 
 .background2 {
-  background: url("https://misteryofdarkness.github.io/Avengers2019/images/throne.jpg");
+  background: url("https://misteryofdarkness.github.io/Avengers2019/images/throne.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
