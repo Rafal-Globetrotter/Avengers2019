@@ -1296,3 +1296,38 @@ main {
   font-weight: bold;
   margin-left: 50px;
 }
+
+.reksio {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.piesek {
+  width: 21.75rem;
+  height: 14rem;
+}
+
+
+
+   @media (max-width: 33rem) {
+   .reksio {
+    flex-direction: column;
+   }
+
+   .piesek {
+    width-max: 22rem ;
+    height-max: 8rem;
+   }
+
+
+}
+
+
+.plan__features li {
+   text-align: center;
+}
+
+.neck {
+  margin-right: 10rem;
+}
