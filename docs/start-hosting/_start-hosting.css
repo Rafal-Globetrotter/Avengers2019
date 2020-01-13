@@ -132,6 +132,7 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 0% -8%;
     width: 100vw;
     height: 100vh;
     position: fixed;

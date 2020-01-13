@@ -1248,6 +1248,7 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 0% -8%;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -1330,4 +1331,9 @@ main {
 
 .neck {
   margin-right: 10rem;
+}
+
+.rocket {
+  width: 140px;
+  height: 140px;
 }
