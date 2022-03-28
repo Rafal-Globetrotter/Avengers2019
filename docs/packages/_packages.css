@@ -3,7 +3,7 @@ main {
 }
 
 .background3 {
-    background: url("https://Rafal-Globetrotter.github.io/Avengers2019/images/Tony.jpg") no-repeat center center fixed; 
+    background: url("../images/Tony.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

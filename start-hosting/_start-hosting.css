@@ -135,7 +135,7 @@ main {
 }
   
 .background {
-    background: url("https://Rafal-Globetrotter.github.io/forjupiter/images/Avengersnew.jpg");
+    background: url("../images/Avengersnew.jpg") no-repeat center center fixed;
     width: 100vw;
     height: 100vh;
     position: fixed;
